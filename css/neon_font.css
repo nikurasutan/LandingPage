@@ -1,0 +1,78 @@
+.neon_text{
+    font-family: 'Liberty';
+    font-weight: 100;
+    font-size: 7rem;
+    letter-spacing: -.2em;
+    flex-flow: row;
+}
+
+.neon_text .letter{
+    color: #d9fdff;
+    display: inline-block;
+    animation: glowing 4s ease-in-out infinite alternate;
+}
+
+@keyframes glowing{
+    0%{
+        text-shadow: 0 0 4rem #00f0ff;
+    }
+    50%{
+        text-shadow: 0 0 2rem #00f0ff;
+    }
+    100%{
+        text-shadow: 0 0 4rem #00f0ff;
+    }
+}
+
+.neon_text .letter#letter-6{
+    transform: translate(.25rem, .75rem) rotate(12.25deg);
+    animation: flicker 5s ease-in-out infinite alternate;
+}
+
+@keyframes flicker{
+    0%{
+        opacity: 1;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 2rem #00f0ff
+    }
+    5%{
+        opacity: 1;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 2rem #00f0ff
+    }
+    5.25%{
+        opacity: 0;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 4rem #00f0ff
+    }
+    5.5%{
+        opacity: 1;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 2rem #00f0ff
+    }
+    5.75%{
+        opacity: 1;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 2rem #00f0ff
+    }
+    6%{
+        opacity: 0;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 4rem #00f0ff
+    }
+    6.25%{
+        opacity: 1;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 2rem #00f0ff
+    }
+    50%{
+        opacity: 1;
+        transform: translate(.25rem, .75rem) rotate(10deg);
+        text-shadow: 0 0 2rem #00f0ff
+    }
+    100%{
+        opacity: 1;
+        transform: translate(.25rem, .75rem) rotate(12.25deg);
+        text-shadow: 0 0 2rem #00f0ff
+    }
+}
