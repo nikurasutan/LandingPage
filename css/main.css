@@ -22,11 +22,14 @@ body{
     min-height: 560px;
     min-width: 480px;
     height: 100vh;
-    overflow: hidden !important;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+.background{
+    overflow: hidden !important;
 }
 
 .maincontainer {
