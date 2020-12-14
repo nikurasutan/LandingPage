@@ -24,7 +24,7 @@ body{
     min-width: 480px;
     height: 100vh;
     min-height: 600px;
-    overflow: hidden !important;
+    /*overflow: hidden !important;*/
     display: flex;
     flex-flow: column;
     justify-content: center;
