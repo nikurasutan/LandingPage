@@ -13,11 +13,16 @@
 html {
   background-image: #c7a25c;
   background-image: linear-gradient(165deg, #c7a25c 0%, #ff9601 43%, #980d0d 100%);
-  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 body {
   height: 100%;
+  margin: 0;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
 }
 
 .profile-picture {
@@ -27,7 +32,6 @@ body {
   width: auto;
   max-height: 150px;
   border-radius: 10%;
-  margin-top: 5%;
 }
 
 .profile-name {
