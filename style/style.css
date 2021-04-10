@@ -15,7 +15,7 @@ html {
   background-image: linear-gradient(165deg, #c7a25c 0%, #ff9601 43%, #980d0d 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
+  background-size: cover;
 }
 
 .profile-picture {
