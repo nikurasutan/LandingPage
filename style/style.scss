@@ -1,0 +1,81 @@
+//colors
+$yellow: rgba(199,162,92,1);
+$orange: rgba(255,150,1,1);
+$red: rgba(152,13,13,1);
+
+//fonts
+@font-face {
+    font-family: jetbrains;
+    src: url(/fonts/jetbrainsbolder.woff2);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: jetbrains;
+    src: url(/fonts/jetbrainsbold.woff2);
+    font-weight: bold;
+}
+
+html{
+    background-image: rgb(199,162,92);
+    background-image: linear-gradient(165deg, $yellow 0%, $orange 43%, $red 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-height: 150px;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+.profile-name{
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+    font-family: jetbrains;
+    font-weight: bolder;
+    font-size: 25pt;
+}
+
+#first-box{
+    margin-top: 16px;
+}
+
+#last-box{
+    margin-bottom: 5%;
+}
+
+.link-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    max-width: 650px;
+    min-width: 100px;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-width: medium;
+    transition: background-color 0.25s ease-in-out;
+    font-family: jetbrains;
+    font-weight: bold;
+    font-size: 15pt;
+
+    a{
+        text-decoration: none;
+        color: white;
+        transition: color 0.25s ease-in-out;
+    }
+}
+
+.link-box:hover{
+    background-color: white;
+
+    a{
+        color: $orange;
+    }
+}
