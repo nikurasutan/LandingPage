@@ -18,6 +18,11 @@ html {
   background-size: cover;
 }
 
+body {
+  height: 100%;
+  padding-bottom: 5%;
+}
+
 .profile-picture {
   display: block;
   margin-left: auto;
