@@ -69,9 +69,12 @@ body{
     font-size: 15pt;
 
     a{
+        display: block;
         text-decoration: none;
         color: white;
         transition: color 0.25s ease-in-out;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
 }
 

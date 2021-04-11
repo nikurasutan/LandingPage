@@ -65,10 +65,13 @@ body {
 }
 
 .link-box a {
+  display: block;
   text-decoration: none;
   color: white;
   -webkit-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .link-box:hover {
