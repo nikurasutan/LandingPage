@@ -3,13 +3,11 @@
   src: url(/fonts/jetbrainsbolder.woff2);
   font-weight: bolder;
 }
-
 @font-face {
   font-family: jetbrains;
   src: url(/fonts/jetbrainsbold.woff2);
   font-weight: bold;
 }
-
 html {
   background-image: #c7a25c;
   background-image: linear-gradient(165deg, #c7a25c 0%, #ff9601 43%, #980d0d 100%);
@@ -25,7 +23,7 @@ body {
   padding-bottom: 50px;
 }
 
-.profile-picture {
+.profilePicture {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +32,7 @@ body {
   border-radius: 10%;
 }
 
-.profile-name {
+.profileName {
   color: white;
   text-align: center;
   margin-top: 16px;
@@ -57,18 +55,15 @@ body {
   border-color: white;
   border-style: solid;
   border-width: medium;
-  -webkit-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
   font-family: jetbrains;
   font-weight: bold;
   font-size: 15pt;
 }
-
 .link-box a {
   display: block;
   text-decoration: none;
   color: white;
-  -webkit-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -77,8 +72,6 @@ body {
 .link-box:hover {
   background-color: white;
 }
-
 .link-box:hover a {
   color: #ff9601;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
